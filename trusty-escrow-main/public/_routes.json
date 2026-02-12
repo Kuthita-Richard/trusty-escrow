@@ -3,7 +3,6 @@
   "include": ["/*"],
   "exclude": [
     "/assets/*",
-    "/public/*",
     "*.js",
     "*.css",
     "*.png",
@@ -16,17 +15,8 @@
     "*.woff2",
     "*.ttf",
     "*.eot",
-    "robots.txt"
-  ],
-  "rules": [
-    {
-      "include": ["/*"],
-      "exclude": ["/api/*"],
-      "destinations": [
-        {
-          "pathname": "/index.html"
-        }
-      ]
-    }
+    "*.json",
+    "/favicon.ico",
+    "/robots.txt"
   ]
 }
