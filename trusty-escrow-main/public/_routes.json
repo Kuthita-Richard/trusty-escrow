@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/assets/*",
+    "/public/*",
+    "*.js",
+    "*.css",
+    "*.png",
+    "*.jpg",
+    "*.jpeg",
+    "*.gif",
+    "*.svg",
+    "*.ico",
+    "*.woff",
+    "*.woff2",
+    "*.ttf",
+    "*.eot",
+    "robots.txt"
+  ],
+  "rules": [
+    {
+      "include": ["/*"],
+      "exclude": ["/api/*"],
+      "destinations": [
+        {
+          "pathname": "/index.html"
+        }
+      ]
+    }
+  ]
+}
