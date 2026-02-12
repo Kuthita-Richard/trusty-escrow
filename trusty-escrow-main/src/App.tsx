@@ -9,6 +9,10 @@ import Landing from "./pages/Landing";
 import Login from "./pages/auth/Login";
 import Signup from "./pages/auth/Signup";
 import VerifyPhone from "./pages/auth/VerifyPhone";
+import ForgotPassword from "./pages/auth/ForgotPassword";
+import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
 import Dashboard from "./pages/Dashboard";
 import TransactionList from "./pages/transactions/TransactionList";
 import TransactionDetail from "./pages/transactions/TransactionDetail";
@@ -38,6 +42,10 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/verify-phone" element={<VerifyPhone />} />
+          <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
 
           {/* User Routes */}
           <Route path="/dashboard" element={<Dashboard />} />
