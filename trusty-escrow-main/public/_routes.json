@@ -1,22 +1,28 @@
 {
   "version": 1,
   "include": ["/*"],
-  "exclude": [
-    "/assets/*",
-    "*.js",
-    "*.css",
-    "*.png",
-    "*.jpg",
-    "*.jpeg",
-    "*.gif",
-    "*.svg",
-    "*.ico",
-    "*.woff",
-    "*.woff2",
-    "*.ttf",
-    "*.eot",
-    "*.json",
-    "/favicon.ico",
-    "/robots.txt"
+  "exclude": ["/assets/*"],
+  "rules": [
+    {
+      "include": ["/*"],
+      "exclude": [
+        "/assets/*",
+        "*.js",
+        "*.css",
+        "*.png",
+        "*.jpg",
+        "*.jpeg",
+        "*.gif",
+        "*.svg",
+        "*.ico",
+        "*.woff",
+        "*.woff2",
+        "*.ttf",
+        "*.eot",
+        "/favicon.ico",
+        "/robots.txt"
+      ],
+      "destination": "/index.html"
+    }
   ]
 }
